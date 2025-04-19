@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Logimg from "../../../public/assets/logo.png";
+
 import Search_Icon from "../../../public/assets/search_icon.svg";
 import Bell_Icon from "../../../public/assets/bell_icon.svg";
 import Profile_img from "../../../public/assets/profile_img.png";
