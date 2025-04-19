@@ -6,7 +6,7 @@ console.log(cards_data);
 const TitleCards = () => {
   return (
     <div className="">
-      <div className="grid grid-cols-5">
+      <div className="grid grid-cols-5 gap-2">
         {cards_data.map((card, index) => (
           <div key={index} className="">
             <Image className="" src={card.image} alt="cards"></Image>
