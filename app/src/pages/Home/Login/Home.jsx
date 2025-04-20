@@ -13,34 +13,30 @@ const Home = () => {
     <div>
       <Navbar />
       <div className="">
-        <Image className="" src={Hero_Banner} alt="Hero_Banner"></Image>
+        <Image className="w-full" src={Hero_Banner} alt="Hero_Banner"></Image>
       </div>
 
       {/* hero par  */}
-      <div className="">
-        <Image className="" src={Hero_Title} alt="heroimage"></Image>
-        <p className="text-white">
+      <div className="w-32  lg:w-[620px] relative -top-35 sm:-top-150 sm:left-5 left-2">
+        <Image className="w-20 sm:w-58" src={Hero_Title} alt="heroimage"></Image>
+        <p className="text-white text-[5px] sm:text-2xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
           maxime consequuntur, deleniti repellendus adipisci similique quis
           nostrum quos libero alias cupiditate corporis eaque praesentium
           distinctio ipsum laudantium, debitis voluptate? Incidunt?
         </p>
-        <div className="flex mt-5 gap-4">
-          <button className="bg-white flex px-5 py-2 rounded-sm">
-            <Image src={Play_icon} alt="playicon" className="w-6 mr-2"></Image>
-            <p className=" font-bold">Play</p>
+        <div className="flex mt-1">
+          <button className="bg-white flex px-1 py-0.5 mr-1 rounded-sm items-center">
+            <Image src={Play_icon} alt="playicon" className="w-2 sm:w-auto"></Image>
+            <p className=" font-bold  text-[5px] sm:text-[20px]">Play</p>
           </button>
-          <button className="bg-black/60 flex px-5 py-2 rounded-sm">
-            <Image src={info_icon} alt="infoicone" className="w-6 mr-2"></Image>
-            <p className=" font-bold text-white">More Info</p>
+          <button className="bg-black/60 flex  px-1 py-0.5 rounded-sm items-center">
+            <Image src={info_icon} alt="infoicone" className="w-2 sm:w-auto"></Image>
+            <p className=" font-bold  text-[5px] sm:text-[20px]">More Info</p>
           </button>
         </div>
       </div>
-
-      {/* carddeatils */}
       <TitleCards />
-
-      {/* footer */}
       <Footer />
     </div>
   );

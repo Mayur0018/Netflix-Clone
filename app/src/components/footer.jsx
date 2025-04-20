@@ -7,9 +7,9 @@ import youtube_logo from "../../../public/assets/youtube_icon.png";
 const Footer = () => {
   return (
     <>
-      <div className=" flex justify-evenly mt-18">
+      <div className=" grid grid-cols-2 mt-10 lg:flex lg:justify-evenly">
         <div>
-          <div className="flex gap-3">
+          <div className="flex gap-4 lg:mt-8">
             <Image className="w-5" src={fb_logo} alt="fblogo"></Image>
             <Image className="w-5" src={instagram_logo} alt="instalogp"></Image>
             <Image className="w-5" src={twitter_logo} alt="twitterlogo"></Image>
@@ -20,17 +20,17 @@ const Footer = () => {
           <p className="text-white">investor Relationa</p>
           <p className="text-white">Leagal Notice</p>
         </div>
-        <div>
+        <div className="mt-8">
           <p className="text-white">Help Center</p>
           <p className="text-white">Jobes</p>
           <p className="text-white">Cookie Performance</p>
         </div>
-        <div>
+        <div className="mt-8">
           <p className="text-white">Gift Cards</p>
           <p className="text-white">Terms Of Use</p>
           <p className="text-white">Corprate Information</p>
         </div>
-        <div>
+        <div className="mt-8">
           <p className="text-white">Mobile Center</p>
           <p className="text-white">Privacy</p>
           <p className="text-white">Contect Us</p>

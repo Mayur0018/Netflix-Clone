@@ -6,11 +6,12 @@ console.log(cards_data);
 const TitleCards = () => {
   return (
     <div className="">
-      <div className="grid grid-cols-5 gap-2">
+      <h1 className=" ">fgdf</h1>
+      <div className="grid grid-cols-4">
         {cards_data.map((card, index) => (
           <div key={index} className="">
             <Image className="" src={card.image} alt="cards"></Image>
-            <p className=" text-white font-bold">{card.name}</p>
+            <p className=" text-white font-bold  text-[5px]">{card.name}</p>
           </div>
         ))}
       </div>
