@@ -17,7 +17,7 @@ const Home = () => {
       </div>
 
       {/* hero par  */}
-      <div className="w-32  lg:w-[620px] relative -top-35 sm:-top-150 sm:left-5 left-2">
+      <div className="w-32  lg:w-[620px] sm:absolute  relative -top-32 sm:top-80 sm:left-5 left-2 ">
         <Image className="w-20 sm:w-58" src={Hero_Title} alt="heroimage"></Image>
         <p className="text-white text-[5px] sm:text-2xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
@@ -43,3 +43,4 @@ const Home = () => {
 };
 
 export default Home;
+

@@ -13,7 +13,7 @@ const Navbar = () => {
   const toggleMenu = () => SetIsopen(!isOpen);
   return (
     <>
-      <div className="sm:hidden ">
+      <div className="sm:hidden">
         <div
           className="sm:hidden text-white text-2xl float-end"
           onClick={toggleMenu}
