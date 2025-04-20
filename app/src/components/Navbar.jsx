@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Logimg from "../../../public/assets/logo.png";
-
+import Logimg from "../../../public/assets/logo.png";   
 import Search_Icon from "../../../public/assets/search_icon.svg";
 import Bell_Icon from "../../../public/assets/bell_icon.svg";
 import Profile_img from "../../../public/assets/profile_img.png";
@@ -22,9 +21,9 @@ const Navbar = () => {
         <div className="flex gap-5 items-center">
           <Image src={Search_Icon} alt="Search-Icone"></Image>
           <p className="text-white">Children</p>
-          <Image src={Bell_Icon}></Image>
-          <Image src={Profile_img}></Image>
-          <Image src={caret_img}></Image>
+          <Image src={Bell_Icon} alt="bell-icon"></Image>
+          <Image src={Profile_img} alt="bell-icon"></Image>
+          <Image src={caret_img} alt="caret-img"></Image>
         </div>
       </div>
     </>

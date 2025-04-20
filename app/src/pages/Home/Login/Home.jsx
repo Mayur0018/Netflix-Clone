@@ -12,13 +12,13 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className="relative">
-        <Image className="w-full" src={Hero_Banner} alt="Hero_Banner"></Image>
+      <div className="relative ">
+        <Image className="w-full " src={Hero_Banner} alt="Hero_Banner"></Image>
       </div>
 
       {/* hero par  */}
-      <div className="absolute top-50 left-8 w-[750px]">
-        <Image className="w-96 " src={Hero_Title}></Image>
+      <div className="absolute top-50 left-8 w-[750px] ">
+        <Image className="w-96  " src={Hero_Title} alt="heroimage"></Image>
         <p className="text-white">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
           maxime consequuntur, deleniti repellendus adipisci similique quis
@@ -27,11 +27,11 @@ const Home = () => {
         </p>
         <div className="flex mt-5 gap-4">
           <button className="bg-white flex px-5 py-2 rounded-sm">
-            <Image src={Play_icon} className="w-6 mr-2"></Image>
+            <Image src={Play_icon} alt="playicon" className="w-6 mr-2"></Image>
             <p className=" font-bold">Play</p>
           </button>
           <button className="bg-black/60 flex px-5 py-2 rounded-sm">
-            <Image src={info_icon} className="w-6 mr-2"></Image>
+            <Image src={info_icon} alt="infoicone" className="w-6 mr-2"></Image>
             <p className=" font-bold text-white">More Info</p>
           </button>
         </div>
