@@ -12,13 +12,13 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className="relative ">
-        <Image className="w-full " src={Hero_Banner} alt="Hero_Banner"></Image>
+      <div className="">
+        <Image className="" src={Hero_Banner} alt="Hero_Banner"></Image>
       </div>
 
       {/* hero par  */}
-      <div className="absolute top-50 left-8 w-[750px] ">
-        <Image className="w-96  " src={Hero_Title} alt="heroimage"></Image>
+      <div className="">
+        <Image className="" src={Hero_Title} alt="heroimage"></Image>
         <p className="text-white">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
           maxime consequuntur, deleniti repellendus adipisci similique quis
